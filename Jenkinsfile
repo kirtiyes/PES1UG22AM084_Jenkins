@@ -17,7 +17,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                script {
+                scripting {
                     sh './${BUILD_NAME}'
                 }
             }
